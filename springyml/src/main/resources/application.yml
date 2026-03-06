@@ -1,0 +1,41 @@
+spring:
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  application:
+    name: springyml
+  profiles:
+    active: dev, prod, qa
+
+db:
+  username: username
+  password: password
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+db:
+  username: devUsername
+  password: devPassword
+
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+db:
+  username: prodUsername
+  password: prodPassword	
+
+---
+spring:
+  config:
+    activate:
+      on-profile: qa
+
+db:
+  username: qaUsername
+  password: qaPassword

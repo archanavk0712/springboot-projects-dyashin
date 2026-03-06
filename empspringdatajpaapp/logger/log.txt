@@ -1,0 +1,74 @@
+2026-03-03 13:16:15,483 : com.dyashin.empspringdatajpaapp.EmpspringdatajpaappApplication : INFO --> Starting EmpspringdatajpaappApplication using Java 21.0.9 with PID 17924 (C:\Users\HP\OneDrive\Desktop\Dyashin Internship\BackEnd\STS workspace\empspringdatajpaapp\target\classes started by HP in C:\Users\HP\OneDrive\Desktop\Dyashin Internship\BackEnd\STS workspace\empspringdatajpaapp) logStarting:: 
+2026-03-03 13:16:15,489 : com.dyashin.empspringdatajpaapp.EmpspringdatajpaappApplication : INFO --> No active profile set, falling back to 1 default profile: "default" logStartupProfileInfo:: 
+2026-03-03 13:16:17,930 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. registerRepositoriesIn:: 
+2026-03-03 13:16:18,180 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 220 ms. Found 1 JPA repository interface. registerRepositoriesIn:: 
+2026-03-03 13:16:20,172 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat initialized with port 9094 (http) initialize:: 
+2026-03-03 13:16:20,211 : org.apache.catalina.core.StandardService : INFO --> Starting service [Tomcat] log:: 
+2026-03-03 13:16:20,213 : org.apache.catalina.core.StandardEngine : INFO --> Starting Servlet engine: [Apache Tomcat/10.1.49] log:: 
+2026-03-03 13:16:20,393 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring embedded WebApplicationContext log:: 
+2026-03-03 13:16:20,394 : org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO --> Root WebApplicationContext: initialization completed in 4802 ms prepareWebApplicationContext:: 
+2026-03-03 13:16:21,079 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] logPersistenceUnitInformation:: 
+2026-03-03 13:16:21,223 : org.hibernate.Version : INFO --> HHH000412: Hibernate ORM core version 6.6.36.Final logVersion:: 
+2026-03-03 13:16:21,313 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled initiateService:: 
+2026-03-03 13:16:22,060 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer addTransformer:: 
+2026-03-03 13:16:22,137 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Starting... getConnection:: 
+2026-03-03 13:16:23,084 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e4ecdf8 checkFailFast:: 
+2026-03-03 13:16:23,088 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Start completed. getConnection:: 
+2026-03-03 13:16:23,261 : org.hibernate.orm.deprecation : WARN --> HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) constructDialect:: 
+2026-03-03 13:16:23,262 : org.hibernate.orm.deprecation : WARN --> HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead logSelectedDialect:: 
+2026-03-03 13:16:23,342 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown logConnectionInfo:: 
+2026-03-03 13:16:25,102 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) initiateService:: 
+2026-03-03 13:16:25,227 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' buildNativeEntityManagerFactory:: 
+2026-03-03 13:16:25,862 : org.springframework.data.jpa.repository.query.QueryEnhancerFactory : INFO --> Hibernate is in classpath; If applicable, HQL parser will be used. <clinit>:: 
+2026-03-03 13:16:27,272 : org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN --> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning openEntityManagerInViewInterceptor:: 
+2026-03-03 13:16:27,404 : org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean : INFO --> Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath. afterPropertiesSet:: 
+2026-03-03 13:16:28,515 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat started on port 9094 (http) with context path '/' start:: 
+2026-03-03 13:16:28,540 : com.dyashin.empspringdatajpaapp.EmpspringdatajpaappApplication : INFO --> Started EmpspringdatajpaappApplication in 14.291 seconds (process running for 15.107) logStarted:: 
+2026-03-03 13:16:39,084 : com.dyashin.empspringdatajpaapp.EmpspringdatajpaappApplication : INFO --> Starting EmpspringdatajpaappApplication using Java 21.0.9 with PID 25220 (C:\Users\HP\OneDrive\Desktop\Dyashin Internship\BackEnd\STS workspace\empspringdatajpaapp\target\classes started by HP in C:\Users\HP\OneDrive\Desktop\Dyashin Internship\BackEnd\STS workspace\empspringdatajpaapp) logStarting:: 
+2026-03-03 13:16:39,091 : com.dyashin.empspringdatajpaapp.EmpspringdatajpaappApplication : INFO --> No active profile set, falling back to 1 default profile: "default" logStartupProfileInfo:: 
+2026-03-03 13:16:41,406 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Bootstrapping Spring Data JPA repositories in DEFAULT mode. registerRepositoriesIn:: 
+2026-03-03 13:16:41,543 : org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO --> Finished Spring Data repository scanning in 118 ms. Found 1 JPA repository interface. registerRepositoriesIn:: 
+2026-03-03 13:16:42,864 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat initialized with port 9094 (http) initialize:: 
+2026-03-03 13:16:42,892 : org.apache.catalina.core.StandardService : INFO --> Starting service [Tomcat] log:: 
+2026-03-03 13:16:42,892 : org.apache.catalina.core.StandardEngine : INFO --> Starting Servlet engine: [Apache Tomcat/10.1.49] log:: 
+2026-03-03 13:16:42,999 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring embedded WebApplicationContext log:: 
+2026-03-03 13:16:43,000 : org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO --> Root WebApplicationContext: initialization completed in 3756 ms prepareWebApplicationContext:: 
+2026-03-03 13:16:43,543 : org.hibernate.jpa.internal.util.LogHelper : INFO --> HHH000204: Processing PersistenceUnitInfo [name: default] logPersistenceUnitInformation:: 
+2026-03-03 13:16:43,759 : org.hibernate.Version : INFO --> HHH000412: Hibernate ORM core version 6.6.36.Final logVersion:: 
+2026-03-03 13:16:43,855 : org.hibernate.cache.internal.RegionFactoryInitiator : INFO --> HHH000026: Second-level cache disabled initiateService:: 
+2026-03-03 13:16:44,481 : org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO --> No LoadTimeWeaver setup: ignoring JPA class transformer addTransformer:: 
+2026-03-03 13:16:44,589 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Starting... getConnection:: 
+2026-03-03 13:16:45,499 : com.zaxxer.hikari.pool.HikariPool : INFO --> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@503a7990 checkFailFast:: 
+2026-03-03 13:16:45,502 : com.zaxxer.hikari.HikariDataSource : INFO --> HikariPool-1 - Start completed. getConnection:: 
+2026-03-03 13:16:45,631 : org.hibernate.orm.deprecation : WARN --> HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) constructDialect:: 
+2026-03-03 13:16:45,644 : org.hibernate.orm.deprecation : WARN --> HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead logSelectedDialect:: 
+2026-03-03 13:16:45,727 : org.hibernate.orm.connections.pooling : INFO --> HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown logConnectionInfo:: 
+2026-03-03 13:16:47,283 : org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO --> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) initiateService:: 
+2026-03-03 13:16:47,428 : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO --> Initialized JPA EntityManagerFactory for persistence unit 'default' buildNativeEntityManagerFactory:: 
+2026-03-03 13:16:48,344 : org.springframework.data.jpa.repository.query.QueryEnhancerFactory : INFO --> Hibernate is in classpath; If applicable, HQL parser will be used. <clinit>:: 
+2026-03-03 13:16:50,272 : org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN --> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning openEntityManagerInViewInterceptor:: 
+2026-03-03 13:16:50,376 : org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean : INFO --> Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath. afterPropertiesSet:: 
+2026-03-03 13:16:51,344 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO --> Tomcat started on port 9094 (http) with context path '/' start:: 
+2026-03-03 13:16:51,380 : com.dyashin.empspringdatajpaapp.EmpspringdatajpaappApplication : INFO --> Started EmpspringdatajpaappApplication in 13.333 seconds (process running for 14.053) logStarted:: 
+2026-03-03 13:16:54,754 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO --> Initializing Spring DispatcherServlet 'dispatcherServlet' log:: 
+2026-03-03 13:16:54,755 : org.springframework.web.servlet.DispatcherServlet : INFO --> Initializing Servlet 'dispatcherServlet' initServletBean:: 
+2026-03-03 13:16:54,757 : org.springframework.web.servlet.DispatcherServlet : INFO --> Completed initialization in 2 ms initServletBean:: 
+2026-03-03 13:16:54,844 : com.dyashin.empspringdatajpaapp.controller.EmployeeController : INFO --> Control in api1 getAll:: 
+2026-03-03 13:16:55,112 : com.dyashin.empspringdatajpaapp.controller.EmployeeController : DEBUG --> Service logic is been invoked and we got the response getAll:: 
+2026-03-03 14:39:05,166 : com.zaxxer.hikari.pool.HikariPool : WARN --> HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m18s903ms398µs100ns). run:: 
+2026-03-03 17:52:48,568 : com.zaxxer.hikari.pool.HikariPool : WARN --> HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m39s743ms596µs800ns). run:: 
+2026-03-03 18:18:25,635 : com.zaxxer.hikari.pool.HikariPool : WARN --> HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m36s178ms760µs801ns). run:: 
