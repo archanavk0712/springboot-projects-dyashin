@@ -101,6 +101,8 @@ Through this internship training, the following competencies were developed:
 * Managing application configuration and deployment practices
 * Working with industry-standard Java frameworks
 
+## Update DB credentials in the application.properties (or db.properties) file
+
 ## Repository Structure
 
 The repository contains multiple Spring Boot practice projects demonstrating different backend development concepts such as:
